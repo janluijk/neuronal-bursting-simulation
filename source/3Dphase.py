@@ -19,7 +19,7 @@ v1 = -1.61
 
 v0 = 0.5
 r0 = 0.5
-a0 = 0.05
+a0 = 0.0
 
 def create_time_array(t_start, t_end, stepsize):
     n_steps = int(np.floor((t_end - t_start) / stepsize)) + 1
